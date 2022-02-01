@@ -19,7 +19,7 @@ h1 {
 img {
     width: 90%;
     height: 90%;
-    aspect-ratio: 1/1;;
+    aspect-ratio: 1/1;
 }
 
 .slots {
@@ -58,7 +58,6 @@ td {
     display: inline-block;
 }
 
-
 #spin {
     height: 8vh;
     width: 15vw;
@@ -72,10 +71,8 @@ input {
     width: 15vw;
 }
 
-
-
 #money {
-    float:right;
+    float: right;
     margin-left: 0.5vw;
 }
 
