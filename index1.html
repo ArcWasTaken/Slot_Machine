@@ -1,46 +1,48 @@
 <html>
-    <head>
-        <title>Slot Machine</title>
-        <link rel="stylesheet" href="style1.css"/>
-        <script type="text/javascript" src="script1.js"></script>
-    </head>
-    <body>
-        <h1>Slot Machine</h1>
-        <div class="slots">
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                            <img id="slot1" class="slot" src="img/1.png">
-                        </td>
-                        <td>
-                            <img id="slot2" class="slot" src="img/1.png">
-                        </td>
-                        <td>
-                            <img id="slot3" class="slot" src="img/1.png">
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
 
-                <div class="control">
+<head>
+    <title>Slot Machine</title>
+    <link rel="stylesheet" href="style1.css" />
+    <script type="text/javascript" src="script1.js"></script>
+</head>
 
-                    <div class="howmuch">You have
-                        <div id=dollars> $.</div>
-                        <div id=money></div>                        
-                    </div>
+<body>
+    <h1>Slot Machine</h1>
+    <div id="winning"></div>
+    <div class="slots">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <img id="slot1" class="slot" src="img/1.png">
+                    </td>
+                    <td>
+                        <img id="slot2" class="slot" src="img/1.png">
+                    </td>
+                    <td>
+                        <img id="slot3" class="slot" src="img/1.png">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
-                        <div>
-                            <form>
-                                <label for="bet">Your bet:</label><br/>
-                                <input type="number" id="yourbet" placeholder="Default 1$"></input>
-                            </form>
-                        </div>
+        <div class="control">
 
-                    <button id="spin" onclick="DoSpin()">SPIN</button>
-                
+            <div class="howmuch">You have
+                <div id=dollars> $.</div>
+                <div id=money></div>
+            </div>
 
-                </div>
+            <div>
+                <form>
+                    <label for="bet">Your bet:</label><br />
+                    <input type="number" id="yourbet" placeholder="Default 1$"></input>
+                </form>
+            </div>
+
+            <button id="spin" onclick="DoSpin()">SPIN</button>
         </div>
-    </body>
-</html> 
+    </div>
+</body>
+
+</html>
